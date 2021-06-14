@@ -1,0 +1,255 @@
+<html lang="ja">
+	<head>
+		<title>机上の空論-TOP</title>
+		<meta name="robots" content="index, follow"/>
+		<meta name="description" content="サークル机上の空論の公式ページです。メンバー情報やアプリの更新情報などをお届けします。">
+		<!--todo サイトのogタグ-->
+		<!--todo サイトの通知-->
+		<!-- ファビコン -->
+		<link rel="icon" href="/favicon.ico">
+ 
+		<!-- スマホ用アイコン -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+ 
+		<!-- Windows用アイコン -->
+		<meta name="application-name" content="{サイト名}"/>
+		<meta name="msapplication-square70x70logo" content="small.jpg"/>
+		<meta name="msapplication-square150x150logo" content="medium.jpg"/>
+		<meta name="msapplication-wide310x150logo" content="wide.jpg"/>
+		<meta name="msapplication-square310x310logo" content="large.jpg"/>
+		<meta name="msapplication-TileColor" content="#FAA500"/>
+		
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+		<!--
+			https://colorable.jxnblk.com/
+		-->
+	</head>
+	<body>
+		<style>/*先読みされるデザイン*/
+		body{background:#ebebeb;margin:0}
+		.site-header{z-index:11;box-shadow:0px 0px 20px rgba(0, 0, 0, 0.25);background:#fefefe;display:flex;padding:0;position:fixed;justify-content:space-between;width:100%;max-height:60px}
+		.site-logo img{margin:5px 0px 5px 0;height:50px;width:auto}
+		.site-logo{margin:0 0 0 15px;}
+		.gnav{margin:0 15px 0 0;}
+		.gnav__menu{display:flex;min-height:60px}
+		.gnav__menu svg{margin-top:12.5px}
+		.main-container{}
+		/*ぱんくず*/
+		.breadcrumb {margin:0;padding:0;list-style:none}.breadcrumb li {display: inline;/*横に並ぶように*/list-style:none;font-weight:bold;/*太字*/}.breadcrumb li:after {/* >を表示*/content:'>';padding:0 0.2em;color:#555}.breadcrumb li:last-child:after {content:''}.breadcrumb li a {text-decoration:none;color:#52b5ee;/*色*/}.breadcrumb li a:hover {text-decoration:underline}
+		@font-face {
+			font-family: 'MyFont';
+			src: url(font/logotypejp_mp_b_1.1.ttf);
+		}	
+		body {
+			font-family: MyFont;
+		}
+		p,h1,h2,h3,h4,a,span{color:#094067}
+		.breadcrumb{padding:15px 3% 0 3%}
+		article{padding:15px 3%;}
+		.text-box{
+			background:#fdfdfd;
+			box-shadow:0px 0px 20px rgba(0, 0, 0, 0.25);
+			border-radius: 20px;
+			padding:5px 5%;
+			margin-bottom:20px;
+		}
+		.flex-container{
+			display:flex;
+			justify-content:center;
+			min-height:100vh;
+			padding-top:60px
+		}
+		
+		aside{
+			background:#c7ffde;
+			padding: 15px;
+			box-shadow: 12px 0 15px -4px rgba(0,0,0, 0.25), -12px 0 8px -4px rgba(0,0,0, 0.25);
+		}
+		.aside-1{
+			
+		}
+		.aside-2{
+
+		}
+		.main-container{
+			background:#d8eefe;
+			box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.25), -12px 0 8px -4px rgba(31, 73, 125, 0.25);
+			z-index:10;
+		}
+		@media screen and ( max-width:1000px) {
+			/*　画面サイズが1000pxから1300px左サイドバーだけ非表示*/
+			aside{			
+				width:300px;
+			}
+			.aside-1{			
+				display:none;
+			}
+			.aside-2{			
+				display:none;
+			}
+			.main-container{
+				width:100%;
+			}
+		}
+		@media screen and (min-width:1000px) and ( max-width:1300px) {
+			/*　画面サイズが1000pxから1300px左サイドバーだけ非表示*/
+			aside{			
+				width:300px;
+			}
+			.aside-1{			
+				display:none;
+			}
+			.aside-2{			
+				display:block;
+			}
+			.main-container{
+				width:700px;
+			}
+		}
+		@media screen and (min-width:1300px) {
+			/*　画面サイズが1300px(全表示)*/
+			aside{			
+				width:300px;
+			}
+			.aside-1{			
+				display:block;
+			}
+			.aside-2{			
+				display:block;
+			}
+			.main-container{
+				width:700px;
+			}
+		}
+		</style>
+		<header class="site-header">
+			<div class="site-logo">
+				<a href="file:///C:/Users/Ryota/Desktop/%E6%9C%BA%E4%B8%8A%E3%81%AE%E7%A9%BA%E8%AB%96/1%E6%9C%8827%E6%97%A5/top.html">
+					<img src="images/site-logo.png" alt="机上の空論-TOPロゴ">
+				</a>
+			</div>
+			<nav class="gnav">
+				<div class="gnav__menu">
+					<svg role="img" viewBox="0 0 448 512" x="0px" y="0px" width="35px" height="35px" color="gray">
+						<path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" class=""></path>
+					</svg>
+				</div>
+			</nav>
+		</header>
+		<div class="flex-container">
+			<aside class="aside-1">
+				<!--サイドバー-->
+				<h2>サイドバー1</h2>
+				<div class="text-box">
+					<img src="http://placehold.jp/150x150.png" alt="適当な画像1">
+				</div>
+				<div class="text-box">
+					<img src="http://placehold.jp/150x150.png" alt="適当な画像1">
+				</div></aside>
+			<div class="main-container">
+				<ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+					<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+						<a itemprop="item" href="ホームのURL">
+							<span itemprop="name">ホーム</span>
+						</a>
+						<meta itemprop="position" content="1" />
+					 </li>
+
+					<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+						<a itemprop="item" href="カテゴリー1のURL">
+							<span itemprop="name">カテゴリー1</span>
+						</a>
+						<meta itemprop="position" content="2" />
+					</li>
+
+					<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+						<a itemprop="item" href="カテゴリー2のURL">
+							<span itemprop="name">カテゴリー2</span>
+						</a>
+						<meta itemprop="position" content="3" />
+					</li>
+				</ol>
+				<article>
+					<div class="text-box">
+						<h1>机上の空論とは</h1>
+						<p>ゲーム好き5人で構成されたゲーム開発者の集団です！</p>
+						<h2>机上の空論の活動内容</h2>
+						<p>アプリを作ったり作らなかったりしています(していません)</p>
+						<ul>
+							<li>
+								<a href="example.com">高校での音ゲー制作</a>
+							</li>
+							<li>
+								<a>Musicaアプリ開発</a>
+							</li>
+						</ul>
+					</div>
+					<div class="text-box">
+						<h2>メンバー紹介</h2>
+						<p>机上の空論の愉快な仲間たちです！見納めください</p>
+						<ul>
+							<li>
+								<a href="example.com">もち</a>
+							</li>
+							<li>
+								<a>しゃねろん</a>
+							</li>
+						</ul>
+					</div>
+						<h2>作成アプリ</h2>
+						<p>作ってきたアプリです。</p>
+						<ul>
+							<li>
+								<a href="example.com">Musica</a>
+							</li>
+							<li>
+								<a>聖地巡礼アプリ</a>
+							</li>
+						</ul>
+						<h2>H2見出し</h2>
+						<p>Pタグ</p>
+						<ul>
+							<li>
+								<a href="example.com">Musica</a>
+							</li>
+							<li>
+								<a>聖地巡礼アプリ</a>
+							</li>
+						</ul>
+				</article>
+			</div>
+			<aside class="aside-2">
+				<!--サイドバー-->
+				<h2>サイドバー2</h2>
+				<div class="text-box">
+					<img src="http://placehold.jp/150x150.png" alt="適当な画像1">
+				</div>
+				<div class="text-box">
+					<img src="http://placehold.jp/150x150.png" alt="適当な画像1">
+				</div>
+			</aside>
+		</div>
+		<footer>
+			<div class="site-footer">
+				<div style="copyc">
+					(c)copy right
+				</div>
+			</div>
+		</footer>
+	</body>
+	<style>/*後から読み込むデザイン*/
+	.site-footer{
+		/*footerの装飾*/
+		/*参考https://qiita.com/nagito25/items/fb0e8455a8b2fdcd480b*/
+		width: 100%;
+		height:60px;
+		line-height:60px;
+		background:#fefefe;
+		color:#222;
+		text-align:center;
+	}
+	.copyc{
+		display:inline-block;vertical-align: middle;
+	}
+	</style>
+</html>
